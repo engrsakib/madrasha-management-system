@@ -1,6 +1,20 @@
 # Madrasah Management System (MMS)
 
+[![Repository](https://img.shields.io/badge/GitHub-engrsakib%2Fmadrasha--management--system-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/engrsakib/madrasha-management-system)
+
+## Technology stack
+
+| Category | Technologies |
+| -------- | ------------ |
+| Monorepo & runtime | [![Node.js](https://img.shields.io/badge/Node.js-≥22-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![pnpm](https://img.shields.io/badge/pnpm-12-F69220?style=for-the-badge&logo=pnpm&logoColor=white)](https://pnpm.io/) [![Turborepo](https://img.shields.io/badge/Turborepo-2-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)](https://turbo.build/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) |
+| Applications | [![NestJS](https://img.shields.io/badge/NestJS-12-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com/) [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/) [![Zod](https://img.shields.io/badge/Zod-validation-3E67B1?style=for-the-badge&logo=zod&logoColor=white)](https://zod.dev/) |
+| Data & infrastructure | [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/) [![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/) [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/) [![ngrok](https://img.shields.io/badge/ngrok-tunneling-1F1E37?style=for-the-badge&logo=ngrok&logoColor=white)](https://ngrok.com/) |
+| UI | [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/) [![Radix UI](https://img.shields.io/badge/Radix_UI-shadcn--style-161618?style=for-the-badge&logo=radixui&logoColor=white)](https://www.radix-ui.com/) |
+| Quality & CI | [![ESLint](https://img.shields.io/badge/ESLint-10-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org/) [![Prettier](https://img.shields.io/badge/Prettier-3-F7BA3E?style=for-the-badge&logo=prettier&logoColor=black)](https://prettier.io/) [![Husky](https://img.shields.io/badge/Husky-git_hooks-000000?style=for-the-badge&logo=git&logoColor=white)](https://typicode.github.io/husky/) [![Commitlint](https://img.shields.io/badge/Commitlint-conventional-000000?style=for-the-badge&logo=conventionalcommits&logoColor=white)](https://commitlint.js.org/) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions) |
+
 Production-oriented **pnpm workspace + Turborepo** monorepo for a Madrasah Management System.
+
+**Repository:** [github.com/engrsakib/madrasha-management-system](https://github.com/engrsakib/madrasha-management-system)
 
 | Package                 | Name                | Port | Description                       |
 | ----------------------- | ------------------- | ---- | --------------------------------- |
@@ -49,7 +63,7 @@ Production-oriented **pnpm workspace + Turborepo** monorepo for a Madrasah Manag
 ### 1. Clone and install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/engrsakib/madrasha-management-system.git
 cd madrasha-management-system
 pnpm install
 ```
@@ -183,4 +197,12 @@ Recommended: enable branch protection requiring the **quality** check (and **com
 
 ## License
 
-Private — all rights reserved unless otherwise specified.
+Copyright (c) 2026 Md. Nazmus Sakib. All Rights Reserved.
+
+This software and associated documentation files (the "Software") are the proprietary and confidential property of the author.
+
+UNAUTHORIZED COPYING, REPRODUCTION, MODIFYING, MERGING, PUBLISHING, DISTRIBUTING, SUBLICENSING, AND/OR SELLING COPIES OF THE SOFTWARE, IN WHOLE OR IN PART, IS STRICTLY PROHIBITED WITHOUT PRIOR WRITTEN PERMISSION FROM THE COPYRIGHT OWNER.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+See [LICENSE](./LICENSE) for the full text.
