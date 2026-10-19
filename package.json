@@ -1,0 +1,45 @@
+{
+  "name": "madrasha-management-system",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@12.8.1",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:api": "turbo run dev --filter=@mms/api",
+    "dev:web": "turbo run dev --filter=@mms/web",
+    "dev:sms": "turbo run dev --filter=@mms/sms",
+    "dev:rms": "turbo run dev --filter=@mms/rms",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint -- --fix",
+    "type-check": "turbo run type-check",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "turbo run test",
+    "db:generate": "pnpm --filter @mms/db db:generate",
+    "db:migrate": "pnpm --filter @mms/db db:migrate",
+    "db:deploy": "pnpm --filter @mms/db db:deploy",
+    "db:studio": "pnpm --filter @mms/db db:studio",
+    "db:seed": "pnpm --filter @mms/db db:seed",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f",
+    "tunnel": "ngrok start --all --config ngrok.yml",
+    "tunnel:api": "ngrok start api --config ngrok.yml",
+    "lint-staged": "lint-staged",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "eslint": "^10.13.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10",
+    "turbo": "^2.11.9",
+    "typescript": "^5.9.3"
+  }
+}

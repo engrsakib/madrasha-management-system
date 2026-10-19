@@ -1,0 +1,26 @@
+{
+  "name": "@mms/shared-types",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint . --max-warnings=0",
+    "type-check": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@mms/eslint-config": "workspace:*",
+    "@mms/tsconfig": "workspace:*",
+    "eslint": "^10.13.0",
+    "typescript": "^5.9.3"
+  }
+}
